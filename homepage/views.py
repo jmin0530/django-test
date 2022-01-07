@@ -6,8 +6,8 @@ from django.shortcuts import HttpResponse,render
 
 def index(request):
 #     return HttpResponse("Hello World!") # request가 왔을 때 "Hello World! 출력"
-    nums = [1,2,3,4,5]
-    return render(request, 'index.html', {"my_list": nums})
+
+    return render(request, 'index.html')
 
 
 def my_intro(request):
